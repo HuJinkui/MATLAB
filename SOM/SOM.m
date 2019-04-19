@@ -16,7 +16,7 @@ net = newsom(P_train,[3 4]);
 %plotsom(hextop(3,4));
 %%
 % 2. 设置训练参数
-net.trainParam.epochs = 300;
+net.trainParam.epochs = 300;           %300次训练
 %%
 % 3. 训练网络
 net = train(net,P_train);
